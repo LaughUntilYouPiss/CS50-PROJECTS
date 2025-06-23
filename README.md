@@ -19,16 +19,16 @@ Each folder represents a week or a project from the course.
 
 | Week | Topic              | Projects                             |
 |------|--------------------|--------------------------------------|
-| 0    | Scratch            | `hello` (Scratch project)            |
-| 1    | C Basics           | `cash`, `credit`                     |
-| 2    | Arrays             | `readability`                        |
-| 3    | Algorithms         | `plurality`, `runoff`, `tideman`     |
-| 4    | Memory             | `filter`, `recover`                  |
-| 5    | Data Structures    | `speller`                            |
-| 6    | Python             | `sentimental-cash`, `sentimental-credit`, etc. |
-| 7    | SQL                | `movies`, `fiftyville`               |
-| 8    | Web Dev (Flask)    | `homepage`, others                   |
-| 9+   | Final Project      | Coming soon... 👀                    |
+| 0    | Scratch            | `Scratch Project`                    |
+| 1    | C Basics           | `me`, `mario-more`, `credit`         |
+| 2    | Arrays             | `scrabble`, `readability`, `substitution`|
+| 3    | Algorithms         | `sort`, `plurality`, `tideman`       |
+| 4    | Memory             | `volume`, `filter-more`, `recover`   |
+| 5    | Data Structures    | `inheritance`, `speller`             |
+| 6    | Python             | `sentimental-hello`, `sentimental-credit`, etc. |
+| 7    | SQL                | `songs`, `movies`, `fiftyville`      |
+| 8    | HTML, CSS, JavaScript| `trivia`, `homepage`               |
+| 9+   | FLASK              | Coming soon... 👀                    |
 
 ---
 

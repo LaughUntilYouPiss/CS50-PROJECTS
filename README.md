@@ -28,7 +28,8 @@ Each folder represents a week or a project from the course.
 | 6    | Python             | `sentimental-hello`, `sentimental-credit`, etc. |
 | 7    | SQL                | `songs`, `movies`, `fiftyville`      |
 | 8    | HTML, CSS, JavaScript| `trivia`, `homepage`               |
-| 9+   | FLASK              | Coming soon... 👀                    |
+| 9    | FLASK              | `birthdays`, `finance`               |
+| 10   | Final Project      | Coming soon... 👀                    |
 
 ---
 

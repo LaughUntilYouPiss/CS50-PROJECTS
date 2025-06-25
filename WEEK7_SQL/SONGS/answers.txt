@@ -1,0 +1,25 @@
+sqlite> SELECT AVG(energy), AVG(valence), AVG(danceability)
+   ...> FROM songs;
++-------------+--------------+-------------------+
+| AVG(energy) | AVG(valence) | AVG(danceability) |
++-------------+--------------+-------------------+
+| 0.65906     | 0.484443     | 0.71646           |
++-------------+--------------+-------------------+
+
+1. The listener’s audio aura combines moderate energy, a slightly somber mood,
+and strong danceability.
+
+2. The calculated averages provide a general idea about the listener's audio aura.
+However, they are not very representative of the listener, as certain songs might
+have too low or too high values, which can distort the averages.Additionally, the
+listener might also have different moods depending on the context in which the
+songs are listened to. The averages might not capture this, potentially suggesting
+a more uniform audio aura than what truly exists.
+To better capture a listener's audio aura, we might consider grouping similar
+songs together based on their features to reflect the listener's diverse
+preferences and assign weight to frequently played tracks to highlight their
+significance. Analyzing song lyrics to determine the mood could add valuable
+context, and considering factors like time of day or activity could further
+refine the understanding of mood and energy. By combining musical features,
+lyrical content, and listening habits, we can create a more personalized
+and accurate profile of the listener’s audio aura.

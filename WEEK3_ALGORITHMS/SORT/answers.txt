@@ -1,0 +1,19 @@
+sort1 uses: Bubble Sort
+
+How do you know?: I identified Bubble Sort because Sort1 had the slowest performance,
+indicating the O(n²) time complexity typical of Bubble Sort. It also showed the fastest
+performence when tested on sorted data indicating the Ω(n), which is characteristic of
+this algorithm.
+
+sort2 uses: Merge Sort
+
+How do you know?: Sort2 was the most efficient on random and reversed datasets, which
+points to the O(n log n) complexity of Merge Sort. It also handled larger datasets (50k)
+significantly faster than Sort1 and Sort3.
+
+sort3 uses: Selection Sort
+
+How do you know?: Since Sort1 is Bubble Sort and Sort2 is Merge Sort, Sort3 can be none
+other than Selection Sort. Its performance, slower than Merge Sort (which performs at
+O(n log n)) but faster than Bubble Sort(which has a time complexity of n² - 2n + 1),
+aligns with Selection Sort's time complexity of approximately n²/2 - n/2.

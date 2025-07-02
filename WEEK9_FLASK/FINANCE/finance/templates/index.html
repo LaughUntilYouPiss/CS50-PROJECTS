@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-start">Symbol</td>
+                <th class="text-end">Shares</td>
+                <th class="text-end">Price</td>
+                <th class="text-end">TOTAL</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks%}
+                {% if stock.shares != 0 %}
+                    <tr>
+                        <td class="text-start">{{ stock.symbol }}</td>
+                        <td class="text-end">{{ stock.shares }}</td>
+                        <td class="text-end">{{ stock.price }}</td>
+                        <td class="text-end">{{ stock.total }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">Cash</td>
+                <td class="border-0 text-end">{{ cash }}</td>
+            </tr>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">Total</td>
+                <td class="border-0 text-end">{{ total }}</td>
+            </tr>
+        </tfoot>
+    </table>
+{% endblock %}
